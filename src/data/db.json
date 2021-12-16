@@ -1,0 +1,45 @@
+
+[
+{
+    "id": 1,
+    "title":"Comfortable Stays", 
+    "desc":"Spaces that are more than just a place to sleep.", 
+    "price":"$100",
+    "image":"../img/banner1.jpg"
+},
+{
+    "id": 2,
+    "title":"Unique Stays", 
+    "desc":"Spaces that are more than just.", 
+    "price":"$300",
+    "image":"../img/banner3.jpg"
+},
+{
+    "id": 3,
+    "title":"Cozy Stays", 
+    "desc":"Spaces that are more", 
+    "price":"$200",
+    "image":"../img/banner2.jpg"
+},
+{
+    "id": 4,
+    "title":"Comfortable Stays", 
+    "desc":"Spaces that are more than just a place to sleep.", 
+    "price":"$100",
+    "image":"../img/banner1.jpg"
+},
+{
+    "id": 5,
+    "title":"Unique Stays", 
+    "desc":"Spaces that are more than just.", 
+    "price":"$300",
+    "image":"../img/banner3.jpg"
+},
+{
+    "id": 6,
+    "title":"Cozy Stays", 
+    "desc":"Spaces that are more", 
+    "price":"$200",
+    "image":"../img/banner2.jpg"
+}
+]

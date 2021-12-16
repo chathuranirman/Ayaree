@@ -1,0 +1,103 @@
+ /*  Will edit everything selected including everything between a range of dates */
+ /* .CalendarDay__selected_span {
+  background: #82e0aa; 
+  color: white; 
+  border: 1px solid yellow; 
+} */
+ /*  
+// Will edit selected date or the endpoints of a range of dates */
+ .CalendarDay__selected {
+   background: #565656;
+   color: white;
+   border-radius: 30px;
+ }
+
+ /* // Will edit when hovered over. _span style also has this property */
+ .CalendarDay__selected:hover {
+   background: #ececec;
+   color: white;
+ }
+
+ /* // Will edit when the second date (end date) in a range of dates
+// is not yet selected. Edits the dates between your mouse and said date */
+ .CalendarDay__hovered_span:hover,
+ .CalendarDay__hovered_span {
+   background: #ececec;
+   color: #565656;
+ }
+
+ .DateRangePickerInput,
+ .DateInput_input {
+   background-color: #fff0 !important;
+ }
+
+ .DateInput {
+   background: #ffffff00 !important;
+ }
+
+ .DateInput_input {
+   font-weight: 400 !important;
+   font-size: 20px !important;
+   line-height: 24px !important;
+   color: #ffffff !important;
+   font-family: 'Poppins', sans-serif;
+   border-left: 1px solid #fff;
+   height: 30px;
+   text-align: center;
+ }
+
+ .DateInput_input__focused {
+   outline: 0;
+   background: #fff;
+   border: 0;
+   border-top: 0;
+   border-right: 0;
+   border-bottom: 0 !important;
+   border-left: 0;
+   border-left: 1px solid #fff;
+ }
+
+
+ .CalendarDay__selected_span {
+   background: #ececec !important;
+   color: black !important;
+   border: 0 !important;
+ }
+
+ .DateRangePicker_picker {
+   background-color: rgba(255, 255, 255, 0) !important;
+ }
+
+ .DayPicker__withBorder {
+   box-shadow: 0 2px 6px rgb(0 0 0 / 5%), 0 0 0 1px rgb(0 0 0 / 7%);
+   border-radius: 18px;
+ }
+
+ .DayPicker_transitionContainer {
+   position: relative;
+   overflow: hidden;
+   border-radius: 28px;
+ }
+
+ .DateRangePickerInput_arrow {
+   display: none;
+ }
+
+ .CalendarDay__blocked_out_of_range,
+ .CalendarDay__blocked_out_of_range:active,
+ .CalendarDay__blocked_out_of_range:hover {
+   background: #fff;
+   border: 0px solid #e4e7e7;
+   color: #cacccd;
+ }
+
+ .CalendarDay__default {
+   border: 0px solid #e4e7e7;
+ }
+
+ .CalendarDay__default:hover {
+   background: #8e8e8e;
+   border: 0;
+   color: inherit;
+   border-radius: 30px;
+ }
